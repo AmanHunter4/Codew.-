@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fira+Sans:ital,wght@1,900&family=Road+Rage&family=Spline+Sans:wght@700&family=Supermercado+One&display=swap');
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Road Rage', cursive;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-size: 30px;
+  color: aqua;
+  border: 10px dotted white;
+}
+button{
+    color: black;
+    background-color: springgreen;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 600px;
+    cursor: pointer;
+}
+h1::after{
+    
+  font-size: 100px;
+    animation: change 15s linear infinite;
+    content: "HTML Image";
+}
+
+@keyframes change{
+    0%{
+        color:navy ;
+     
+    }
+    10%{
+        color:aqua ;
+       
+    }
+    20%{
+        color:orange ;
+       
+    }
+    30%{
+        color:magenta ;
+       
+    }
+    40%{
+        color:indigo ;
+       
+    }
+    50%{
+        color:rgb(14, 102, 14) ;
+     
+    }
+    60%{
+        color:crimson ;
+       
+    }
+    70%{
+        color:rgb(15, 54, 39) ;
+     
+    }
+    80%{
+        color:black ;
+       
+    }
+    90%{
+        color:white ;
+     
+    }
+  
+}

@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@1,900&family=Oswald:wght@700&family=Road+Rage&family=Spline+Sans:wght@700&family=Supermercado+One&display=swap');
+body{
+    font-weight: bolder;
+    font-style: bold;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Road Rage', cursive;
+font-family: 'Spline Sans', sans-serif;
+background-color:springgreen;
+}
+
+#code{
+    font-size: 30px;
+    height: 500px;
+  background-color:black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#learn{
+text-align: center;
+}
+
+h1{
+    
+    background-color: black;
+    margin: 200px;
+}
+dl{
+    margin: 200px;
+  
+}
+#lang{
+    color: springgreen;
+    background-color: black;
+    text-align: center;
+    text-align: left;
+    border-radius: 30px;
+}
+button{
+    border-radius: 30px;
+    height: 50px;
+    width: 300px;
+   cursor: pointer;
+   background-color: wheat;
+   font-weight: bolder;
+   font-size: 20px;
+
+
+}
+#code::after{
+    
+    font-size: 100px;
+    animation: change 15s linear infinite;
+    content: "Learn to code";
+}
+
+@keyframes change{
+    0%{
+        color:navy ;
+     
+    }
+    10%{
+        color:aqua ;
+       
+    }
+    20%{
+        color:orange ;
+       
+    }
+    30%{
+        color:magenta ;
+       
+    }
+    40%{
+        color:indigo ;
+       
+    }
+    50%{
+        color:rgb(14, 102, 14) ;
+     
+    }
+    60%{
+        color:crimson ;
+       
+    }
+    70%{
+        color:rgb(15, 54, 39) ;
+     
+    }
+    80%{
+        color:black ;
+       
+    }
+    90%{
+        color:white ;
+     
+    }
+  
+}
+
+#html::after{
+    animation: change 15s linear infinite;
+    content: "HTML";
+}
+
+@keyframes change{
+    0%{
+        color:navy ;
+     
+    }
+    10%{
+        color:aqua ;
+       
+    }
+    20%{
+        color:orange ;
+       
+    }
+    30%{
+        color:magenta ;
+       
+    }
+    40%{
+        color:indigo ;
+       
+    }
+    50%{
+        color:lime ;
+     
+    }
+    60%{
+        color:crimson ;
+       
+    }
+    70%{
+        color:mediumspringgreen ;
+     
+    }
+    80%{
+        color:black ;
+       
+    }
+    90%{
+        color:white ;
+     
+    }
+  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    
+}
+nav a {
+  
+    font-size: 20px;
+    margin-left: 300px;
+
+}
+nav{
+background-color: white;
+height: 50px;
+
+}
+#htmluse::after{
+    animation: change 15s linear infinite;
+    content: "Used for building webpages";
+}
+
+@keyframes change{
+    0%{
+        color:navy ;
+     
+    }
+    10%{
+        color:aqua ;
+       
+    }
+    20%{
+        color:orange ;
+       
+    }
+    30%{
+        color:magenta ;
+       
+    }
+    40%{
+        color:indigo ;
+       
+    }
+    50%{
+        color:rgb(14, 102, 14) ;
+     
+    }
+    60%{
+        color:crimson ;
+       
+    }
+    70%{
+        color:rgb(15, 54, 39) ;
+     
+    }
+    80%{
+        color:black ;
+       
+    }
+    90%{
+        color:white ;
+     
+    }
+  
+}
+#cssuse::after{
+    animation: change 15s linear infinite;
+    content: "Used for styling webpages";
+}
+
+@keyframes change{
+    0%{
+        color:navy ;
+     
+    }
+    10%{
+        color:aqua ;
+       
+    }
+    20%{
+        color:orange ;
+       
+    }
+    30%{
+        color:magenta ;
+       
+    }
+    40%{
+        color:indigo ;
+       
+    }
+    50%{
+        color:rgb(14, 102, 14) ;
+     
+    }
+    60%{
+        color:crimson ;
+       
+    }
+    70%{
+        color:rgb(15, 54, 39) ;
+     
+    }
+    80%{
+        color:black ;
+       
+    }
+    90%{
+        color:white ;
+     
+    }
+  
+}
+#Fmsuse::after{
+    animation: change 15s linear infinite;
+    content: "Used for Various Purposes";
+}
+
+@keyframes change{
+    0%{
+        color:navy ;
+     
+    }
+    10%{
+        color:aqua ;
+       
+    }
+    20%{
+        color:orange ;
+       
+    }
+    30%{
+        color:magenta ;
+       
+    }
+    40%{
+        color:indigo ;
+       
+    }
+    50%{
+        color:rgb(14, 102, 14) ;
+     
+    }
+    60%{
+        color:crimson ;
+       
+    }
+    70%{
+        color:rgb(15, 54, 39) ;
+     
+    }
+    80%{
+        color:black ;
+       
+    }
+    90%{
+        color:white ;
+     
+    }
+  
+}
+#Fms:after{
+    animation: change 15s linear infinite;
+    content: "FMS LOGO";
+}
+
+@keyframes change{
+    0%{
+        color:navy ;
+     
+    }
+    10%{
+        color:aqua ;
+       
+    }
+    20%{
+        color:orange ;
+       
+    }
+    30%{
+        color:magenta ;
+       
+    }
+    40%{
+        color:indigo ;
+       
+    }
+    50%{
+        color:rgb(14, 102, 14) ;
+     
+    }
+    60%{
+        color:crimson ;
+       
+    }
+    70%{
+        color:rgb(15, 54, 39) ;
+     
+    }
+    80%{
+        color:black ;
+       
+    }
+    90%{
+        color:white ;
+     
+    }
+  
+}
+#q:after{
+    animation: change 15s linear infinite;
+    content: "If you have any doubts then write us an email on codew.org@gmail.com";
+}
+
+@keyframes change{
+    0%{
+        color:navy ;
+     
+    }
+    10%{
+        color:aqua ;
+       
+    }
+    20%{
+        color:orange ;
+       
+    }
+    30%{
+        color:magenta ;
+       
+    }
+    40%{
+        color:indigo ;
+       
+    }
+    50%{
+        color:rgb(14, 102, 14) ;
+     
+    }
+    60%{
+        color:crimson ;
+       
+    }
+    70%{
+        color:rgb(15, 54, 39) ;
+     
+    }
+    80%{
+        color:black ;
+       
+    }
+    90%{
+        color:white ;
+     
+    }
+  
+}
